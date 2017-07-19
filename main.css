@@ -1,0 +1,295 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  overflow-x: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 1px solid #414347;
+}
+
+header {
+  text-align: center;
+  height: 500px;
+  background: linear-gradient(rgba(95,158,160,0.7),rgba(72,61,139,0.7)), url('images/3188-snow-black-and-white-mountains.jpg');
+  background-size: cover;
+  background-position: center top;
+  color: #fff;
+  position: relative;
+}
+
+header h1,
+header h2 {
+  font-weight: 100;
+  text-shadow: 1px 1px black;
+}
+
+#title {
+  background-color: darkorchid;
+  padding: 7px;
+  border-radius: 10px;
+  font-style: italic;
+  box-shadow: 1px 1px 2px black;
+}
+
+#tag1 {
+  font-size: 100px;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  opacity: 0.5;
+  text-shadow: 2px 2px black;
+}
+
+#tag2 {
+  font-size: 100px;
+  position: absolute;
+  top: 70px;
+  right: 200px;
+  opacity: 0.5;
+  text-shadow: 2px 2px black;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 50px;
+  left: 300px;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+  margin-right: 70px;
+  font-weight: 100;
+}
+
+nav ul li a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+  text-shadow: 1px 1px black;
+}
+
+nav ul li a:hover {
+  color: hotpink;
+}
+
+section {
+  width: 600px;
+}
+
+section h3 {
+  color: darkslateblue;
+  font-weight: 200;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+section p {
+  line-height: 1.5em;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 20;
+  color: darkslateblue;
+  text-align: center;
+}
+
+table {
+  margin: 40px auto;
+  border-spacing: 20px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+table td a {
+  text-decoration: none;
+}
+
+table td img {
+  transition: opacity .7s ease;
+}
+
+table td img:hover {
+  opacity: 0.5;
+}
+
+footer {
+  height: 100px;
+  background-color: darkslateblue;
+  color: #fff;
+  padding-top: 40px;
+  word-spacing: 1.5px;
+  position: relative;
+}
+
+footer p span {
+  color: hotpink;
+}
+
+.contact_main {
+  height: 500px;
+  padding-top: 40px;
+}
+
+.contact_main h1 {
+  color: darkslateblue;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.contact_main table {
+  margin-top: 60px;
+  padding-top: 50px;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.contact_main table td {
+  font-weight: 100;
+  box-shadow: none;
+  margin-right: 20px;
+  letter-spacing: .1em;
+}
+
+.symbol {
+  font-size: 60px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+#facebook {
+  color: #fff;
+  position: absolute;
+  right: 280px;
+  bottom: 42px;
+  font-size: 20px;
+  transition: color .3s ease-in-out;
+}
+
+#facebook:hover {
+  color: hotpink;
+}
+
+#linkedIn {
+  color: #fff;
+  position: absolute;
+  right: 180px;
+  bottom: 42px;
+  font-size: 20px;
+  transition: color .3s ease-in-out;
+}
+
+#linkedIn:hover {
+  color: hotpink;
+}
+
+.profile {
+  width: 50%;
+  padding-left: 80px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.profile p {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.profile h1 {
+  color: darkslateblue;
+  font-weight: 100;
+}
+
+.experiences {
+  width: 50%;
+  padding-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.experiences p {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.experiences h1 {
+  color: darkslateblue;
+  font-weight: 100;
+}
+
+.job h3{
+  text-align: left;
+}
+
+.job h2 {
+  color: cadetblue;
+}
+
+.icon {
+  position: absolute;
+  top: 62px;
+  left: 30px;
+  font-size: 30px;
+  color: cadetblue;
+}
+
+.main {
+  position: relative;
+}
+
+.education {
+  position: absolute;
+  width: 30%;
+  background-color: cadetblue;
+  color: #fff;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.education h2,
+.education h3,
+.education p {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.education h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
