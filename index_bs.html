@@ -2,75 +2,82 @@
 <html>
   <head>
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main_responsive.css">
   </head>
 
   <body>
 
-    <header class="container">
+    <div class="jumbotron text-center container-fluid">
       <img class="img-circle" src="images/11136185_10153837406633976_1666971860120004069_o.jpg" height="210" width="200">
       <h1>Walter Ulreich</h1>
       <h2><span id="title">junior web developer</span></h2>
-      <p id="tag1">&lsaquo;W&rsaquo;</p>
-      <p id="tag2">&lsaquo;/U&rsaquo;</p>
+      <p id="tag1"><span class="fa fa-angle-left"></span>W<span class="fa fa-angle-right"></span></p>
+      <p id="tag2"><span class="fa fa-angle-left"></span>/U<span class="fa fa-angle-right"></span></p>
 
       <nav>
         <ul>
-          <li><a href="index.html">about me</a></li>
-          <li><a href="resume.html">resume</a></li>
-          <li><a href="contact.html">contact</a></li>
-          <li><a href="resources.html">resources</a></li>
+          <li><a href="index_bs.html">about me</a></li>
+          <li><a href="resume_bs.html">resume</a></li>
+          <li><a href="skills_bs.html">skills</a></li>
+          <li><a href="contact_bs.html">contact</a></li>
         </ul>
-      </nav>
+      <nav>
 
-   </header>
-
-   <div class="container content">
-
-   <section class="container">
-     <h3>About Me</h3>
-     <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
-   </section>
-
-   <h3>Projects</h3>
-
-     <table>
-       <tr>
-         <td>
-           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
-           <h3>Website 1</h3></a>
-         </td>
-         <td>
-           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
-           <h3>Website 2</h3></a>
-         </td>
-         <td>
-           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
-           <h3>Website 3</h3></a>
-         </td>
-       </tr>
-       <tr>
-         <td>
-           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
-           <h3>Website 4</h3></a>
-         </td>
-         <td>
-           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
-           <h3>Website 5</h3></a>
-         </td>
-         <td>
-           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
-           <h3>Website 6</h3></a>
-         </td>
-       </tr>
-     </table>
    </div>
 
-   <footer class="container">
+
+
+   <div class="container about text-center">
+     <h3>About Me</h3>
+     <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
+   </div>
+
+  <div class="projects container text-center">
+  <h3>Projects</h3>
+
+
+       <div class="row">
+         <div class="col-md-4">
+           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
+           <h3>Website 1</h3></a>
+         </div>
+         <div class="col-md-4">
+           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
+           <h3>Website 2</h3></a>
+         </div>
+         <div class="col-md-4">
+           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
+           <h3>Website 3</h3></a>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-md-4">
+           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
+           <h3>Website 4</h3></a>
+         </div>
+         <div class="col-md-4">
+           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
+           <h3>Website 5</h3></a>
+         </div>
+         <div class="col-md-4">
+           <a href="#"><img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" width="300" height="200" class="gallery_image">
+           <h3>Website 6</h3></a>
+         </div>
+       </div>
+     </div>
+
+
+
+   <div class="footer container-fluid text-center">
      <p>&copy; All rights reserved | Design by <span>Walter Ulreich</span></p>
-     <a href="#" target="_blank"><p id="facebook">facebook</p></a>
-     <a href="#" target="_blank"><p id="linkedIn">linkedIn</p></a>
-   </footer>
+     <a href="#"><span class="fa fa-facebook-square"></span></a>
+     <a href="#"><span class="fa fa-linkedin-square"></span></a>
+     <a href="#"><span class="fa fa-github-square"></span></a>
+   </div>
 
   </body>
 </html>
